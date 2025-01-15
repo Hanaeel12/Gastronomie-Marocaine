@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titre-gene">
+        Gastronomie Marocaine</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="KKK.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="acceuil.html">
+                <img src="LOGO3.png" alt="Logo de Gastronomie Marocaine" class="logo">
+            </a>
+            <h1>Gastronomie Marocaine</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="acceuil.html">Accueil</a></li>
+                <li><a href="Tanger.html" class="active">Tanger</a></li>
+                <li><a href="Ouajda.html">Oujda</a></li>
+                <li><a href="Fez.html">Fez</a></li>
+                <li><a href="Marrakech.html">Marrakech</a></li>
+                <li><a href="Ouarzazate.html">Ouarzazate</a></li>
+                <li><a href="Laayoune.html">Laayoune</a></li>
+                <li><a href="autres.html">Autres spécialités</a>
+            </ul>
+            <script src="script1.js"></script>
+            
+        </nav>
+        <script src="scriptnav.js"></script>
+        <script src="script1.js"></script>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="nord1.jpg" alt="Un assortiment de plats marocains traditionnels">
+            <h2>Découvrire les plats Emblématique du Nord du Maroc</h2>
+        </section>
+        <div class="description">
+            <section class="highlight">
+                <h1>Tanger : La perle du Nord du Maroc</h1>
+                <p> 
+                    Tanger est un carrefour de cultures et de saveurs qui se reflètent dans sa riche gastronomie. Connue pour ses plats emblématiques, la région offre une cuisine authentique et variée, influencée par la fraîcheur de la Méditerranée et les traditions séculaires du Rif et de ses environs, comme Larache, Tétouan, Assilah, etc. Parmi les saveurs connues dans Tanger et ses environs, on trouve la Bissara ou comme ils disent les Tangérois BAYSSAR, Taktouka Jabalia, Tagra ou Tajine au poisson, etc.
+                </p>
+                
+
+                <h2>BISSARA : Soupe des petits pois</h1>
+                <p>
+                    Dans le nord du Maroc, particulièrement dans les régions montagneuses et rurales, la bissara a émergé comme un pilier de l’alimentation quotidienne, surtout durant les mois d’hiver. Le climat plus frais du Rif, ainsi que la disponibilité des fèves et des pois cassés, a contribué à faire de la bissara une spécialité locale. L’ajout d’huile d’olive, produite en abondance dans ces régions, témoigne du lien profond entre ce plat et les produits locaux.
+                </p>
+                <img src="plats/Bissara.jpg" alt="TANGER">
+                <p>
+                    Historiquement, la bissara était le plat des classes populaires, consommée par les agriculteurs, les pêcheurs et les ouvriers pour son apport énergétique élevé. Simple à préparer, elle permettait d’alimenter toute une famille avec des ingrédients peu coûteux. Elle était souvent servie comme petit-déjeuner ou repas de midi, permettant de rester rassasié pendant une journée de travail.
+                </p>
+                <p>
+                    Elle est aujourd’hui appréciée dans tout le pays, mais reste particulièrement associée au nord, Ce plat incarne une partie de l’identité culinaire du Maroc, témoignant de la capacité des Marocains à sublimer des ingrédients simples pour créer des mets riches en saveurs et en histoire. 
+                </p>
+
+                <h2>Targa au tagine au poisson</h1>
+                <p>
+                    Originaire des villes de Tanger et Tétouan, ainsi que des villages du nord-ouest du Maroc, la tagra est un plat emblématique de la région. Ce terme désigne également le plat ovale en terre cuite dans lequel le poisson est cuit au four.
+                </p>
+                <img src="plats/TARGA.jpg" alt="TANGER">
+                <p>
+                    Préparée avec des variétés de poissons comme les anchois et les sardines, la Tagra était à l'origine un repas de pêcheurs. Aujourd'hui, elle incarne une tradition culinaire typique de la côte nord marocaine, où la fraîcheur des ingrédients et la méthode de cuisson traditionnelle font toute la différence.
+                </p>
+                <p>
+                    Plus qu’un simple plat, la tagra reflète le mode de vie des habitants du nord marocain, où la proximité de la mer joue un rôle central dans la culture et l’alimentation. Ce mets est souvent servi lors des repas familiaux ou des rassemblements accompagné de pain frais.
+                </p>
+                <p>
+                    Aujourd’hui, la tagra continue de conquérir les cœurs grâce à sa simplicité et son authenticité. Elle incarne le lien profond entre la mer et les traditions culinaires du nord du Maroc, offrant une expérience gustative inoubliable et une fenêtre sur le riche patrimoine de cette région côtière.
+                </p>
+                <h2>Explorez la diversité des saveurs dans autres villes du Maroc </h2>
+                <h4> Fez, Marrakech, Oujda, Ouarzazate et Laayoune</h4>
+                    <section>
+                        <div id="map",class="text-interactive">  </div>
+                            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                            <script src="script.js"></script>
+                    </section>   
+                <p>
+                    Bon voyage à travers les saveurs du Maroc !
+                </p>
+            </section>
+        </div>  
+    </main>
+    <footer>
+        <p>&copy; 2024 Gastronomie Marocaine</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titre-gene">
+        Gastronomie Marocaine</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="KKK.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="acceuil.html">
+                <img src="LOGO3.png" alt="Logo de Gastronomie Marocaine" class="logo">
+            </a>
+            <h1>Gastronomie Marocaine</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="acceuil.html">Accueil</a></li>
+                <li><a href="Tanger.html" >Tanger</a></li>
+                <li><a href="Ouajda.html" class="active">Oujda</a></li>
+                <li><a href="Fez.html">Fez</a></li>
+                <li><a href="Marrakech.html">Marrakech</a></li>
+                <li><a href="Ouarzazate.html">Ouarzazate</a></li>
+                <li><a href="Laayoune.html">Laayoune</a></li>
+                <li><a href="autres.html">Autres spécialités</a>
+            </ul>
+            <script src="script1.js"></script>
+            
+        </nav>
+        <script src="scriptnav.js"></script>
+        <script src="script1.js"></script>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="Oujda.jpg" alt="Un assortiment de plats marocains traditionnels">
+            <h2>Découvrire les plats Emblématique du Nord-Est du Maroc</h2>
+        </section>
+        <div class="description">
+            <section class="highlight">
+                <h1>Oujda : Une cuisine orientale</h1>
+                <p> 
+                    La cuisine d’Oujda, située à l’extrême nord-est du Maroc, reflète les influences méditerranéennes, amazighes et algériennes.                 
+                </p>
+                <h2>Berkoukch</h2>
+                <p>
+                    Le berkoukch est une spécialité souvent préparée pendant les mois froids. Il est constitué de grosses billes de semoule roulées à la main, légèrement plus grandes que le couscous classique. Ces billes sont cuites à la vapeur puis mélangées à une sauce onctueuse, préparée avec des légumes comme les navets, les carottes, les tomates, et des pois chiches. La sauce est enrichie de viande (souvent de l’agneau) et parfumée d'épices telles que le ras-el-hanout, le paprika et le gingembre. Ce plat, symbole de convivialité, est généralement servi lors des rassemblements familiaux et incarne l’authenticité culinaire oujdie.
+                </p>
+                <img src="plats/berkoukch.jpg" alt="Fez">
+                
+                <h2>Karan</h2>
+                <p>
+                    Le karan, héritage des liens historiques entre Oujda et l’Algérie, est une tarte savoureuse préparée à base de farine de pois chiches, d'eau, d'œufs et d’huile d’olive. La pâte liquide est versée dans un plat large et cuite au four jusqu'à ce qu’elle forme une couche légèrement dorée à l’extérieur et fondante à l’intérieur. Elle est servie chaude, saupoudrée de cumin, de sel et parfois accompagnée d'une touche de harissa. Simple et économique, le karan est un aliment de rue incontournable à Oujda, souvent vendu par les marchands ambulants et consommé comme collation rapide ou petit-déjeuner.                </p>
+                <img src="plats/karan.jpg" alt="Fez">
+                <h2>kaak</h2>
+                <p> 
+                    Le Kaâk d'Oujda est un biscuit traditionnel marocain, originaire de la ville d'Oujda. Ces biscuits en forme d'anneaux dentelés se caractérisent par une texture à la fois croquante et tendre, et sont souvent parfumés avec des graines de sésame et d'anis. Elles sont souvent préparés lors de fêtes et de célébrations, reflétant la richesse de la tradition culinaire marocaine.               </p>
+                <img src="plats/kaak.jpg" alt="Fez">
+                <h2>Explorez la diversité des saveurs dans autres villes du Maroc </h2>
+                <h4> Tanger, Fez, Marrakech, Ouarzazate et Laayoune</h4>
+                    <section>
+                        <div id="map",class="text-interactive">  </div>
+                            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                            <script src="script.js"></script>
+                    </section>   
+                <p>
+                    Bon voyage à travers les saveurs du Maroc !
+                </p>
+            </section>
+        </div>
+    <footer>
+        <p>&copy; 2024 Gastronomie Marocaine</p>
+    </footer>
+</body>
+</html>

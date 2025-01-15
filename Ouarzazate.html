@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titre-gene">
+        Gastronomie Marocaine</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="KKK.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="acceuil.html">
+                <img src="LOGO3.png" alt="Logo de Gastronomie Marocaine" class="logo">
+            </a>
+            <h1>Gastronomie Marocaine</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="acceuil.html">Accueil</a></li>
+                <li><a href="Tanger.html" >Tanger</a></li>
+                <li><a href="Ouajda.html">Oujda</a></li>
+                <li><a href="Fez.html">Fez</a></li>
+                <li><a href="Marrakech.html">Marrakech</a></li>
+                <li><a href="Ouarzazate.html" class="active">Ouarzazate</a></li>
+                <li><a href="Laayoune.html">Laayoune</a></li>
+                <li><a href="autres.html">Autres spécialités</a>
+            </ul>
+            <script src="script1.js"></script>
+            
+        </nav>
+        <script src="scriptnav.js"></script>
+        <script src="script1.js"></script>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="Ouarzazate.jpg" alt="Un assortiment de plats marocains traditionnels">
+            <h2>Découvrire les plats Emblématique du Sud du Maroc</h2>
+        </section>
+        <div class="description">
+            <section class="highlight">
+                <h1>Ouarzazate : La porte du désert</h1>
+                <h2> Medfouna </h2>
+                <p> 
+                    La medfouna, souvent appelée "pizza berbère", est un mets traditionnel de la région
+                    désertique de Ouarzazate et des vallées alentour. Ce plat consiste en une pâte
+                    simple à base de farine, d’eau, de sel et parfois d’un peu d’huile, qui est étalée en un
+                    disque fin. La garniture est composée de viande (souvent d’agneau ou de chameau),
+                    d’oignons hachés, d’ail, de coriandre et de persil, ainsi que d’un mélange d’épices
+                    locales comme le cumin, le paprika et le ras-el-hanout.
+                </p>
+                <img src="plats/madfouna.jpg" alt="Fez">
+                <p>
+                    La pâte est refermée en enveloppe autour de la garniture, puis cuite dans un four
+                    traditionnel en argile ou enfouie dans des braises chaudes. Ce mode de cuisson
+                    donne à la medfouna une saveur légèrement fumée. Elle était historiquement
+                    consommée par les caravaniers voyageant à travers le désert, car elle est facile à
+                    transporter et reste savoureuse plusieurs jours.
+                </p>
+                <h2> La Tchicha Berbère</h2>
+                <p>
+                    La Tchicha Berbère, originaire des montagnes du Haut Atlas et de la région de Ouarzazate, est une soupe traditionnelle à base de semoule d’orge. Préparée avec des tomates, des oignons, de l’huile d’olive et de la menthe sauvage, elle est particulièrement consommée en hiver pour ses qualités nutritives et réchauffantes.
+                </p>
+                <img src="plats/tchicha.jpg" alt="Fez">
+                <p>
+                    Ce plat, simple mais riche en saveurs, est également donné aux femmes nouvellement accouchées pour ses bienfaits énergétiques. Symbole de la cuisine berbère, la Tchicha illustre l’art d’utiliser des ingrédients locaux pour créer un mets à la fois réconfortant et ancré dans la tradition.
+                </p>
+                <h2>Pain Tafrnaout</h2>
+                <p>
+                    Le khobz tafrnaout, ou "pain de Tafernout", est un pain traditionnel cuit dans des
+                    fours en argile appelés "tafernouts", typiques des régions berbères. La pâte,
+                    préparée avec de la farine d’orge ou de blé, est mélangée à de l’eau, de la levure, et
+
+                    une pincée de sel avant d’être laissée à lever. Elle est ensuite mise dans le four
+                    chauffé au bois ou dans les braises.
+                </p>
+                <img src="plats/tafa.jpg" alt="Fez">
+                <p>
+                    Le pain acquiert une croûte légèrement fumée et une mie moelleuse, grâce au
+                    processus de cuisson particulier. Chaque village possède souvent un four collectif,
+                    où les habitants déposent leurs pâtons à cuire. Ce pain accompagne parfaitement
+                    les tajines, les soupes, ou simplement un bol de thé à la menthe.
+                </p>
+                <h2>Explorez la diversité des saveurs dans autres villes du Maroc </h2>
+                <h4> Tanger, Fez, Marrakech, Oujda et Laayoune</h4>
+                    <section>
+                        <div id="map",class="text-interactive">  </div>
+                            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                            <script src="script.js"></script>
+                    </section>   
+                <p>
+                    Bon voyage à travers les saveurs du Maroc !
+                </p>
+            </section>
+        </div>
+    <footer>
+        <p>&copy; 2024 Gastronomie Marocaine</p>
+    </footer>
+</body>
+</html>
